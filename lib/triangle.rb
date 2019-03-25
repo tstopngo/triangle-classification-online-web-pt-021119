@@ -13,7 +13,7 @@ class Triangle
         return :equilateral
       elsif
       
-    else
+      else
       
     end
     

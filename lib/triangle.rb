@@ -14,6 +14,7 @@ class Triangle
       elsif @num1.abs != @num1 || @num2.abs != @num2 || @num3.abs != @num3
         raise TriangleError
       elsif (@num1 + @num2) > @num3 || (@num2 + @num3) > @num1 || (@num1 + @num3) > @num2
+        raise TriangleError
       elsif @num1 != @num2 && @num2 != @num3 && @num1 != @num3
         return :scalene
       elsif @num1 == @num2 && @num2 == @num3 && @num1 == @num3

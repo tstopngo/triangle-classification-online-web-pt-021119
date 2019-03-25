@@ -5,6 +5,7 @@ class Triangle
     def initialize(num1,num2,num3)
       
     end
+    
     def kind
       
     end

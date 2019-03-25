@@ -13,6 +13,8 @@ class Triangle
         return :equilateral
       elsif
       
+    else
+      
     end
     
     class TriangleError < StandardError

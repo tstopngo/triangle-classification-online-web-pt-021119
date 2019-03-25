@@ -9,12 +9,12 @@ class Triangle
     end
     
     def kind
-      if 
+      if @num1 == 0 && @num2 == 0 && @num3 == 0
         return :equilateral
       elsif @num1 != @num2 && @num2 != @num3 && @num1 != @num3
         return :scalene
       elsif @num1 == @num2 && @num2 == @num3 && @num1 == @num3
-      @num1 == 0 && @num2 == 0 && @num3 == 0
+      
         raise TriangleError
       else
         return :isosceles 

@@ -14,7 +14,7 @@ class Triangle
       elsif @num1 != @num2 && @num2 != @num3 && @num1 != @num3
         return :scalene
       else
-      
+        return :isosceles 
     end
     
     class TriangleError < StandardError
